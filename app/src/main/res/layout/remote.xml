@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="64dp"
+        android:src="@drawable/largeicon"
+        android:layout_height="64dp" />
+
+    <TextView
+        android:layout_toRightOf="@+id/iv_icon"
+        android:id="@+id/tv_customView"
+        android:layout_width="match_parent"
+        android:text="customView"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:layout_height="64dp" />
+</RelativeLayout>
